@@ -2,5 +2,3 @@
 Tasinmaz Project- Back-End
 
 
-Tasinmaz Project- Back-End.
-
