@@ -21,6 +21,7 @@ namespace VolkanAppTasinmaz.API.Entities.Concrete
         [Required, Column("ilce")]
         public int Ilce { get; set; }
 
+        //Tablo değerli kolonlandı.
         [Column("mahalleid")]
         public int MahalleId { get; set; }
 
