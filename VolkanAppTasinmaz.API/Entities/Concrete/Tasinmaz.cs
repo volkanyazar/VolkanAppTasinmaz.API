@@ -14,7 +14,7 @@ namespace VolkanAppTasinmaz.API.Entities.Concrete
         [Key, Column("tasinmazid")]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int TasinmazId { get; set; }
-
+        //örnek değer girildi.
         [Column("il")]
         public int Il { get; set; }
 
