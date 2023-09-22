@@ -48,5 +48,11 @@ namespace VolkanAppTasinmaz.API.Entities.Concrete
 
         [ForeignKey("UserId")]
         public virtual User User { get; set; }
+
+        [Required, Column("x"), StringLength(155)]
+        public string coorX { get; set; }
+
+        [Required, Column("y"), StringLength(155)]
+        public string coorY { get; set; }
     }
 }
